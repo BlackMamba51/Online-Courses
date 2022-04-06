@@ -1,0 +1,9 @@
+.orangeButton {
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+  line-height: 52px;
+  padding: 0 40px;
+  border-radius: 4px;
+  background: linear-gradient(#FF3F3A, #F75E05);
+}
