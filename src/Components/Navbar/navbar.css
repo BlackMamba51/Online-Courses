@@ -2,11 +2,9 @@ li {
   list-style: none;
   font-size: 16px;
   line-height: 26px;
+  color: #000;
 }
 
-.navbar {
-  padding: 40px 0;
-}
 .navbar__body {
   width: 100%;
   display: flex;
@@ -16,7 +14,7 @@ li {
   width: 60%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .navbar-menu {
   width: 70%;
@@ -30,15 +28,17 @@ li {
 .menu-list {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .navbar-btns {
   display: flex;
+  margin-right: 50px;
 }
 .account {
   display: flex;
   align-items: center;
   margin-left: 40px;
+  cursor: pointer;
 }
 .account-logo {
   width: 20px;
