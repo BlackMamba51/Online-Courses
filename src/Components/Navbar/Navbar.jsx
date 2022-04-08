@@ -9,10 +9,10 @@ function Navbar() {
       <div className="container">
         <div className="navbar__body">
           <div className="navbar-navigation">
-            <div className="logo"></div>
+            <Link to="/"><div className="logo"></div></Link>
             <nav className="navbar-menu">
               <div className="menu-list">
-                <Link className="links" to="/">
+                <Link className="links" to="/aboutus">
                 <li>About Us</li>
                 </Link>
                 <Link className="links" to="/courses">

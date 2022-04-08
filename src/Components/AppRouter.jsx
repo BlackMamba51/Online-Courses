@@ -5,12 +5,14 @@ import Blog from "../Pages/Blog";
 import Contacts from "../Pages/Contacts";
 import Courses from "../Pages/Courses";
 import Events from "../Pages/Events";
+import Homepage from "../Pages/Homepage";
 
 function AppRouter() {
 
   return (
     <Routes>
-      <Route path="/" element={<AboutUs/>}/>
+      <Route path="/" element={<Homepage/>}/>
+      <Route path="/aboutus" element={<AboutUs/>}/>
       <Route path="/blog" element={<Blog/>}/>
       <Route path="/contacts" element={<Contacts/>}/>
       <Route path="/courses" element={<Courses/>}/>

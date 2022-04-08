@@ -9,8 +9,8 @@ function AboutSection() {
         <div className="about__body">
           <div className="about-img"></div>
           <div className="about-info">
-            <h2 className="about-subtitle">Who we are</h2>
-            <h2 className="about-title">Why Createx?</h2>
+            <h2 className="subtitle">Who we are</h2>
+            <h2 className="title">Why Createx?</h2>
             <ul className="description-list">
               <li className="list-items">A fermentum in morbi pretium aliquam adipiscing donec tempus.</li>
               <li className="list-items">Vulputate placerat amet pulvinar lorem nisl.</li>
