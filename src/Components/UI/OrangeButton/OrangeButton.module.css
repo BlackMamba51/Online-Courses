@@ -5,9 +5,11 @@
   line-height: 52px;
   padding: 0 40px;
   border-radius: 4px;
+  border: 1px solid #FF3F3A;
   background: linear-gradient(#FF3F3A, #F75E05);
   transition: all .7s ease;
 }
 .orangeButton:hover {
-  box-shadow: 5px 5px 10px #FF3F3A;
+  background: transparent;
+  color: #FF3F3A;
 }
