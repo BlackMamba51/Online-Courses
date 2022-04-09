@@ -325,3 +325,43 @@
   margin-right: 30px;
 }
 /* Homepage Events */
+
+
+/* Homepage Certificate */
+.homepage-certificate {
+  padding-top: 80px;
+}
+.homepage-certificate__body {
+  display: flex;
+  justify-content: space-between;
+}
+.certificate-description {
+  max-width: 400px;
+}
+.certificate-text {
+  margin-top: 40px;
+}
+.certificate-img {
+  position: relative;
+  left: 40px;
+}
+.logos {
+  width: 105px;
+  height: 50px;
+  background-size: 100%;
+}
+.certificate-logos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.logos1 {
+  background-image: url('../../assets/img/Del\ Mar\ Strategy\ Logo\ 1.png');
+} 
+.logos2 {
+  background-image: url('../../assets/img/National\ Health\ Logo\ 1.png');
+}
+.logos3 {
+  background-image: url('../../assets/img/Sentinal\ Consulting\ Logo\ 1.png');
+}
+/* Homepage Certificate */

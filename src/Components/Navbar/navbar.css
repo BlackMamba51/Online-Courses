@@ -46,3 +46,25 @@ li {
   background-image: url('../../assets/svg/Profile.svg');
   background-size: 100%;
 }
+.links li{
+  position: relative;
+  transition: all .7s ease;
+}
+.links li:hover {
+  color: #FF3F3A;
+}
+.links li::after {
+  display: block;
+  content: '';
+  width: 0;
+  transition: all .7s ease;
+}
+.links li:hover::after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(#FF3F3A, #F75E05);
+  position: absolute;
+  top: 30px;
+}
