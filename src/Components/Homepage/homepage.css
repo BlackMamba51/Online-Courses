@@ -263,9 +263,9 @@
 /* Homepage Events */
 
 .homepage-events {
-  padding: 50px 0;
+  padding: 30px 0;
   background-image: url('../../assets/img/backgroundHomepageEvents.png');
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -365,3 +365,110 @@
   background-image: url('../../assets/img/Sentinal\ Consulting\ Logo\ 1.png');
 }
 /* Homepage Certificate */
+
+
+/* Homepage Team */
+.homepage-team {
+  padding: 70px 0 70px 0;
+  background: url('../../assets/img/BackgroundHomepageTeam.png');
+}
+.member-card {
+  position: relative;
+}
+.member-img {
+  width: 285px;
+  height: 340px;
+  margin: 0 auto;
+}
+.member-img img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 4px;
+  text-align: center;
+}
+.member-name {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: 700;
+  color: #424551;
+  margin-top: 15px;
+}
+.member-position {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #787A80;
+}
+.member-info {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  padding-top: 60px;
+  width: 285px;
+  height: 100px;
+  background: linear-gradient(rgba(30, 33, 44, 0), rgba(30, 33, 44, 0.33), rgba(30, 33, 44, 0.56), rgba(30, 33, 44, 0.7682), rgba(30, 33, 44, 0.92));
+  left: 20px;
+  bottom: 70px;
+}
+.member-icon {
+  width: 20px;
+  height: 20px;
+  background-size: 100%;
+}
+.member-facebook {
+  background-image: url('../../assets/svg/Facebook.svg');
+  margin-right: 8px;
+}
+.member-instagram {
+  background-image: url('../../assets/svg/Instagram.svg');
+  margin-right: 10px;
+}
+.member-linkedin {
+  background-image: url('../../assets/svg/Linked-In.svg');
+}
+
+.comment-card {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  padding: 70px;
+  max-width: 1020px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+.comment__body {
+  max-width: 752px;
+}
+.comment-text {
+  font-size: 20px;
+  line-height: 30px;
+  color: #424551;
+}
+.comment-name {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #1E212C;
+}
+.slick-dots li button:before {
+  content: '';
+  width: 30px;
+  height: 3px;
+  background-color: #424551;
+  margin-top: 20px;
+}
+.slick-dots li {
+  margin: 0 10px;
+}
+.braces {
+  width: 28px;
+  height: 20px;
+  background-image: url('../../assets/svg/braces.svg');
+  background-size: cover;
+}
+/* Homepage Team */

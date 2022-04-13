@@ -6,6 +6,7 @@ import HomepageCourses from "../Components/Homepage/HomepageCourses";
 import HomepageBenefits from "../Components/Homepage/HomepageBenefits";
 import HomepageEvents from "../Components/Homepage/HomepageEvents";
 import HomepageCertificate from "../Components/Homepage/HomepageCertificate";
+import HomepageTeam from "../Components/Homepage/HomepageTeam";
 function Homepage() {
 
   return (
@@ -16,6 +17,7 @@ function Homepage() {
       <HomepageBenefits/>
       <HomepageEvents/>
       <HomepageCertificate/>
+      <HomepageTeam/>
     </div>
   )
 }

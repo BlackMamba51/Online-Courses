@@ -1,0 +1,51 @@
+.sliderTeamNext {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 430px;
+  left: 1230px;
+  cursor: pointer;
+}
+.sliderTeamNext::before {
+  display: block;
+  content: '🠖';
+  font-size: 26px;
+  width: 48px;
+  height: 48px;
+  padding-top: 10px;
+  color: #000;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .7s ease;
+}
+.sliderTeamNext:hover::before {
+  background: #FF3F3A;
+  color: #fff;
+}
+.sliderTeamPrev {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 430px;
+  left: 1180px;
+  cursor: pointer;
+  z-index: 2;
+}
+.sliderTeamPrev::before {
+  display: block;
+  content: '🠔';
+  font-size: 26px;
+  width: 48px;
+  height: 48px;
+  padding-top: 10px;
+  color: #000;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .7s ease;
+}
+.sliderTeamPrev:hover::before {
+  background: #FF3F3A;
+  color: #fff;
+}
