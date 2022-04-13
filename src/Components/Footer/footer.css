@@ -1,0 +1,130 @@
+.footer {
+  padding: 50px 0;
+  background-color: #1E212C;
+}
+.footer__body {
+  display: flex;
+  justify-content: space-between;
+}
+.white-logo {
+  width: 130px;
+  height: 22px;
+  background-image: url('../../assets/svg/whitelogo.svg');
+  background-size: cover;
+}
+.footer-first-group {
+  max-width: 279px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-text {
+  font-size: 12px;
+  color: #fff;
+  opacity: 0.6;
+  line-height: 18px;
+  margin-top: 15px;
+}
+.footer-socials {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.footer-social {
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  cursor: pointer;
+}
+.footer-facebook {
+  background-image: url('../../assets/svg/footerIcons/Facebook.svg');
+}
+.footer-twitter {
+  background-image: url('../../assets/svg/footerIcons/Twitter.svg');
+}
+.footer-youtube {
+  background-image: url('../../assets/svg/footerIcons/YouTube.svg');
+}
+.footer-telegram {
+  background-image: url('../../assets/svg/footerIcons/telegram.svg');
+}
+.footer-instagram {
+  background-image: url('../../assets/svg/footerIcons/Instagram.svg');
+}
+.footer-linkedin {
+  background-image: url('../../assets/svg/footerIcons/Linked-In.svg');
+}
+.footer-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+.footer-links li{
+  color: #fff;
+  opacity: 0.6;
+  font-size: 16px;
+  line-height: 26px;
+}
+.footer-course {
+  color: #fff;
+  opacity: 0.6;
+  font-size: 16px;
+  line-height: 26px;
+}
+.footer-number {
+  background-image: url('../../assets/svg/iPhone.svg');
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: 1px;
+}
+.number-text {
+  color: #fff;
+  opacity: 0.6;
+  font-size: 16px;
+  line-height: 26px;
+  margin-left: 20px;
+}
+.footer-mail {
+  background-image: url('../../assets/svg/Mail.svg');
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: 1px;
+}
+.mail-text {
+  color: #fff;
+  opacity: 0.6;
+  font-size: 16px;
+  line-height: 26px;
+  margin-left: 20px;
+}
+.footer-input-email {
+  font-size: 12px;
+  line-height: 18px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top: 20px;
+  width: 286px;
+  height: 36px;
+  padding-left: 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.footer-fifth-group {
+  position: relative;
+  max-width: 286px;
+}
+.white-right {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../assets/svg/whiteRight.svg');
+  background-size: cover;
+  position: absolute;
+  top: 55px;
+  left: 250px;
+}
+.footer-agreement {
+  font-size: 10px;
+  line-height: 15px;
+  color: #fff;
+  margin-top: 15px;
+}
