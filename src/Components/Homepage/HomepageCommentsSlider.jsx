@@ -17,7 +17,7 @@ function HomepageCommentsSlider() {
   };
   return (
     <Slider {...settings}>
-      {commentsList.map(comment => <HomepageCommentItem comment={comment}/>)}
+      {commentsList.map(comment => <HomepageCommentItem comment={comment} key={comment.id}/>)}
     </Slider>
   )
 }
