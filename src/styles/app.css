@@ -25,3 +25,16 @@ html {
 path {
   fill: inherit;
 }
+.subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #1E212C;
+}
+.title {
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 60px;
+  color: #1E212C;
+  margin-top: 15px;
+}

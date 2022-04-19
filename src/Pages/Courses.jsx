@@ -1,10 +1,11 @@
 import React from "react";
-
+import CoursesHeader from "../Components/Courses/CoursesHeader";
+import '../Components/Courses/courses.css';
 function Courses() {
 
   return (
     <div>
-      <h1>Courses</h1>
+      <CoursesHeader/>
     </div>
   )
 }

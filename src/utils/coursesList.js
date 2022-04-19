@@ -9,7 +9,7 @@ import Img8 from '../assets/img/course8.png';
 import Img9 from '../assets/img/course9.png';
 export const coursesList = [
   {id: 1, type: 'Marketing', name: 'The Ultimate Google Ads Training Course', price: '$100', teacher: 'by Jerome Bell', img: Img1, color: '#03CEA4'},
-  {id: 2, type: 'Management', name: 'Prduct Management Fundamentals', price: '$480', teacher: 'by Marvin McKinney', img: Img2 , color: '#5A87FC'},
+  {id: 2, type: 'Management', name: 'Product Management Fundamentals', price: '$480', teacher: 'by Marvin McKinney', img: Img2 , color: '#5A87FC'},
   {id: 3, type: 'HR & Recruting', name: 'HR  Management and Analytics', price: '$200', teacher: 'by Leslie Alexander Li', img: Img3 , color: '#F89828'},
   {id: 4, type: 'Marketing', name: 'Brand Management & PR Communications', price: '$530', teacher: 'by Kristin Watson', img: Img4 , color: '#03CEA4'},
   {id: 5, type: 'Design', name: 'Graphic Design Basic', price: '$500', teacher: 'by Guy Hawkins', img: Img5 , color: '#F52F6E'},
