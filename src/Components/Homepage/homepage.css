@@ -320,7 +320,7 @@
 }
 .homepage-certificate__body {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .certificate-description {
   max-width: 400px;

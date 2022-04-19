@@ -79,3 +79,7 @@
   color: #424551;
   margin-left: 10px;
 }
+.courses-comments {
+  padding: 5px 0px 60px;
+  background-image: url('../../assets/img/BackgroundHomepageTeam.png');
+}
