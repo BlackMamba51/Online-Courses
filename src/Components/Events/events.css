@@ -1,0 +1,127 @@
+.events-header {
+  padding: 40px 0;
+}
+
+.events-header__body {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vertical-list {
+  width: 100%;
+}
+.list-buttons {
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  cursor: pointer;
+}
+.change-listview {
+  display: flex;
+  align-items: center;
+}
+.list-button {
+  background-image: url('../../assets/svg/list.svg');
+}
+.grid-button {
+  background-image: url('../../assets/svg/grid.svg');
+}
+
+.grid-list {
+  width: 100%;
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: repeat(3, 390px);
+  justify-content: space-between;
+  row-gap: 30px;
+}
+.grid-event-card {
+  min-height: 323px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #E5E8ED;
+  border-radius: 4px;
+  padding: 20px;
+}
+.grid-event-day {
+  color: #FF3F3A;
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: 700;
+}
+.grid-event-time {
+  color: #787A80;
+  font-size: 16px;
+  line-height: 26px;
+}
+.grid-event-text {
+  color: #1E212C;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+}
+.grid-event-type {
+  color: #787A80;
+  font-size: 16px;
+  line-height: 26px;
+}
+.events-filters {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.events-filters-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.filter-group {
+  display: flex;
+  align-items: center;
+}
+.filter-name {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #424551;
+}
+.select-filter {
+  padding-left: 10px;
+  width: 160px;
+  height: 44px;
+  border: 1px solid #D7DADD;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+.search-event {
+  width: 282px;
+  height: 44px;
+  border: 1px solid #D7DADD;
+  border-radius: 4px;
+  padding-left: 20px;
+  font-size: 14px;
+}
+.events-pagination {
+  width: 144px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.events-pages {
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #424551;
+}
+.right-pagination {
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  background-image: url('./../../assets/svg/RightPagination.svg');
+  cursor: pointer;
+}

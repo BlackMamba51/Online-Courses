@@ -1,11 +1,15 @@
 import React from "react";
-
+import EventsHeader from "../Components/Events/EventsHeader";
+import '../Components/Events/events.css';
+import HomepageSubscribe from "../Components/Homepage/HomepageSubscribe";
 function Events() {
 
   return (
     <div>
-      <h1>Events</h1>
+      <EventsHeader/>
+      <HomepageSubscribe/>
     </div>
+
   )
 }
 
